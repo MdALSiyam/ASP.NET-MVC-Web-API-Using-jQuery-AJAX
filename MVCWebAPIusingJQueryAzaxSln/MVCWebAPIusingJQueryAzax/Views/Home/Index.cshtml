@@ -1,0 +1,41 @@
+﻿<main>
+    <div class="row">
+        <br /><br />
+              <h1>Person Information</h1>
+        <table class="table">
+            <tr>
+                <td></td>
+                <td><input type="hidden" name="id" id="id" value="" /></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name" value="" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email" id="email" value="" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" name="btnAdd" id="btnAdd" value="Save" class="btn btn-primary" /> |
+                    <input type="button" name="btnUpdate" id="btnUpdate" value="Update" class="btn btn-success" />
+                </td>
+            </tr>
+        </table>
+        <br /><br />
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Actions</td>
+                </tr>
+            </thead>
+            <tbody id="info">
+            </tbody>
+        </table>
+    </div>
+</main>
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script src="~/Scripts/custom.js"></script>

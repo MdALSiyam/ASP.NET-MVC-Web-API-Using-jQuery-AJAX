@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAPIusingJQueryAzax", "MVCWebAPIusingJQueryAzax\MVCWebAPIusingJQueryAzax.csproj", "{FAC58F5B-0139-4E66-A22C-13495838F10E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC58F5B-0139-4E66-A22C-13495838F10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC58F5B-0139-4E66-A22C-13495838F10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC58F5B-0139-4E66-A22C-13495838F10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC58F5B-0139-4E66-A22C-13495838F10E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A02D992-FD4A-4502-AF82-A3549D4BF6DA}
+	EndGlobalSection
+EndGlobal
